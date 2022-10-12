@@ -1,0 +1,8 @@
+prefix=/home/taehoon/catkin_ws2/install
+
+Name: rviz_marker
+Description: Description of rviz_marker
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

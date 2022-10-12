@@ -1,0 +1,4 @@
+<launch>
+    <node name="rviz_visualizer" pkg="rviz" type="rviz" required="true" args="-d $(find rviz_marker)/rviz/rviz_visualizer.rviz"/>
+    <node name="rviz_marker" pkg="rviz_marker" type="rviz_marker.py" output="screen" />
+</launch>
